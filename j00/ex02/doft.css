@@ -2,27 +2,31 @@ body
 {
     margin: 0;
     padding: 0;
+	 background-color: rgb(80,80,80)
 }
 .all
 {
-    background-color: red;
+    background-color: rgb(80,80,80)
     height: 100%;
     width: 1480px;
 }
 .top
 {
-    background-color: green;
+    background-color: rgb(144,144,144);
     margin-top: 50px;
     height: 145px;
     width: 1480px;
     border-radius: 15px;
+	 box-shadow : 10px 10px 15px black;
 }
 .mid
 {
-    background-color: pink;
+    background-color: rgb(144,144,144);
     height: 610px;
     width: 1070px;
     border-radius: 15px;
+	 margin-top: 20px;
+	 box-shadow : 10px 10px 15px black;
 }
 .left
 {
@@ -30,9 +34,10 @@ body
     float: left;
     margin-left: 20px;
     margin-top: 20px;
-    background-color: blue;
+    background-color: rgb(144,144,144);
     height: 460px;
     width: 150px;
+	 box-shadow : 10px 10px 15px black;
 }
 .right
 {
@@ -40,19 +45,21 @@ body
     margin-right: 20px;
     margin-top: 20px;
     float: right;
-    background-color: blue;
+    background-color: rgb(144,144,144);
     height: 460px;
     width: 150px;
+	 box-shadow : 10px 10px 15px black;
 }
 .green
 {
-    background-color: grey;
+    background-color: rgb(140,253,142);
     height: 185px;
     width: 540px;
     position: relative;
     bottom: +80px;
     right: +500px;
     border-radius: 15px;
+	 box-shadow : 10px 10px 15px black;
 }
 .imgleft
 {
@@ -96,4 +103,44 @@ body
     width: 97%;
     top: 9px;
     position: relative;
+}
+#reload
+{
+	position: relative;
+	height: 20px;
+	width: 20px;
+	float: right;
+	top: 10px;
+	right: 10px;
+}
+#close
+{
+	position: relative;
+	height: 20px;
+	width: 20px;
+	float: right;
+	top: 120px;
+	left: 10px;
+}
+#loupe
+{
+	position: relative;
+	height: 140px;
+	width: 240px;
+	left: 10px;
+	top: 25px;
+	float: right;
+}
+#text
+{
+	font-size: 20px;
+}
+#ordi
+{
+	font-size: 20px;
+}
+#entrez
+{
+	font-size : 38px;
+	font-family : 'palatino linotype', 'book antiqua', Palatino, serif;
 }
