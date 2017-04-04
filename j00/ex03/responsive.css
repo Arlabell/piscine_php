@@ -1,0 +1,53 @@
+body
+{
+    color: white;
+    background-image:url("background2_j00.jpg");
+    background-size: 100% 100%;
+}
+.all
+{
+    height: 100%;
+    width: 100%;
+}
+.tab
+{
+    background-color: red;
+    width: 90%;
+}
+
+.real
+{
+    font-family: Courier, monospace;
+    border: 2px solid white;
+    height: 5%;
+    /*width: 3%;*/
+
+}
+td
+{
+    height: 3%;
+    /*width: 3%;*/
+}
+h1
+{
+    font-family: Apple Chancery, cursive;
+    color: white;
+    font-size: 40px;
+}
+#mid
+{
+    height: 40%;
+    font-size: 1vw;
+    font-family: Chalkduster, fantasy;
+    font-weight: bold;
+}
+#top
+{
+    font-size: 1vw;
+    height: 40%;
+}
+#bot
+{
+    font-size: 1vw;
+    height: 20%;
+}

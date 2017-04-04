@@ -8,32 +8,39 @@
     <center>
         <div class="all">
             <div class="top">
-                <img id="day" src="resources/day_of_the_42.png"></img>
-					 <img id="reload" src="resources/reload.png"></img>
-					 <img id="close" src="resources/close.gif"></img>
-					 <img id="loupe" src="resources/loupe.png"></img></div>
+                <img id="day" src="resources/day_of_the_42.png" title="day"></img>
+                <a href="http://www.disney.com">
+                    <img id="reload" src="resources/reload.png" title="Recommencer au début">
+                <a href="http://www.relaischateaux.com">
+                    <img id="close" src="resources/close.gif" title="Déconnecter"></img>
+                </a>
+                <img id="loupe" src="resources/loupe.png" title="loupe"></img></div>
             <div class="left">
-                <img class="imgleft" src="resources/arrow.png"></img>
+                <img class="imgleft" src="resources/arrow.png" alt="Avancer" title="Avancer"></img>
                 <br>
-                <img class="imgleft" src="resources/main.png"></img>
+                <img class="imgleft" src="resources/main.png" alt="Prendre" title="Prendre"></img>
                 <br>
-                <img id="oeil" class="imgleft" src="resources/oeil.png"></img>
+                <img id="oeil" class="imgleft" src="resources/oeil.png" alt="Regarder" title="Regarder"></img>
                 <br>
-                <img class="imgleft" src="resources/outil.png"></img>
+                <img class="imgleft" src="resources/outil.png" alt="Utiliser" title="Utiliser"></img>
                 <br>
-                <img class="imgleft" src="resources/chat-icon.png"></img></div>
+                <img class="imgleft" src="resources/chat-icon.png" alt="Parler" title="Parler"></img></div>
             <div class="right">
-                <img id="book" class="imgright" src="resources/book.png"></img>
-                <img class="imgright" src="resources/towel.png"></img>
-                <img id="brick" class="imgright" src="resources/brick.jpg"></img></div>
+                <img id="book" class="imgright" src="resources/book.png" title="book"></img>
+                <img class="imgright" src="resources/towel.png" title="towel"></img>
+                <img id="brick" class="imgright" src="resources/brick.jpg" title="brick"></img></div>
             <div class="mid">
-                <img id="cluster" src="resources/cluster.jpg"></img></div>
-            <div class="green">
-					<left>
-					<a id="text">Vous </a><a id="entrez">entrez </a><a id="text">alors dans une grande piece remplie </a>
-					<a id="ordi" align="left">d'ordinateures...</a><br>
-						<a  id="text">-Bonjour, vous êtes nouveau ici ?</a></div>
-					</left>
+                <img id="cluster" src="resources/cluster.jpg" title="cluster"></img>
+                <map name="map1" id="map1">
+                    <area href="http://www.ikea.com" shape="rect" coords="300,310,435,1000" tittle="ikea.com">
+                    <area href="http://apple.com" shape="rect" coords="" title="apple">
+                </map>
+            </div>
+            <div class="green" align="left">
+					<div><a id="t0">Vous</a> <a id="t1">entrez</a><a id="t0"> alors dans une grande piece remplie d'</a><a id="t2">ordinateurs</a>...<br />
+                        <a id="t0">- Bonjour, vous êtes nouveau ici?</a></div>
+                    <input align="left" id="end" type="text" size="65px"/>
+                    <button type="submit" id="button">Repondre</button>
         </div>
     </center>
 </body>
